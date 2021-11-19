@@ -47,12 +47,12 @@ function Products() {
               <th className="w-3/12  border bg-gray-100 font-medium text-sm">
                 Descrição
               </th>
-              <th className="w-3/12 pl-12 border bg-gray-100 font-medium text-sm">
+              {/* <th className="w-3/12 pl-12 border bg-gray-100 font-medium text-sm">
                 Preço Compra
               </th>
               <th className="w-3/12 border bg-gray-100 font-medium text-sm">
                 Preço Venda
-              </th>
+              </th> */}
               <th className="w-1/12 pl-6 border bg-gray-100 font-medium text-sm">
                 Qtde Estoque
               </th>

@@ -65,7 +65,7 @@ function ProductsLine({ products }) {
             <td className="w-2/12 border text-sm">{products.category}</td>
             <td className="w-3/12 border text-sm">{products.name}</td>
             <td className="w-3/12 border text-sm">{products.description}</td>
-            <td className="w-1/12 border px-4 text-sm">
+            {/* <td className="w-1/12 border px-4 text-sm">
               {products.purchase_price
                 .toLocaleString("pt-br", { style: "currency", currency: "BRL" })
                 .replace(".", ",")}
@@ -74,9 +74,9 @@ function ProductsLine({ products }) {
               {products.reference_price
                 .toLocaleString("pt-br", { style: "currency", currency: "BRL" })
                 .replace(".", ",")}
-            </td>
+            </td> */}
 
-            <td className="w-1/12 px-16 border text-sm">
+            <td className="w-1/12 px-8 border text-sm">
               {getEstoque(transactions, products)}
               
             </td>

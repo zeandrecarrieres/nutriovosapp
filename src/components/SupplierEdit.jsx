@@ -105,7 +105,7 @@ function SupplierEdit({ onEditSupplierModalClose, id }) {
         </div>
 
         <div className="flex justify-between">
-          <div className="flex flex-col mb-4">
+          {/* <div className="flex flex-col mb-4">
             <label
               htmlFor="type"
               className="font-bold text-sm text-gray-500"
@@ -120,7 +120,7 @@ function SupplierEdit({ onEditSupplierModalClose, id }) {
               className="border py-2 px-3 text-grey-darkest w-full h-10 my-2 shadow-sm bg-opacity-30 border-solid border-gray-300"
               onChange={(e) => setType(e.target.value)}
             />
-          </div>
+          </div> */}
 
           <div className="flex flex-col mb-4">
             <label
