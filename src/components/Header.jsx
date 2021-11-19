@@ -6,11 +6,12 @@ function Header() {
 
 
   return (
-    <div className="flex justify-between items-center h-14 p-14 bg-gray-700 text-white shadow-lg sticky top-0 z-10">
+    <div className="flex justify-between items-center h-14 p-14 bg-red-700 text-white shadow-lg sticky top-0 z-10">
       <div className="text-red text-3xl px-10 ">
         {" "}
-        <span className="font-bold ">Monduvin </span>Boutique
+        <span className="font-bold ">NutriovosAPP </span>
       </div>
+
       <div>
       <button
         className="flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group sm:hidden"
