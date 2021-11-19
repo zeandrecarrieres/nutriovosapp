@@ -131,40 +131,34 @@ function ProductEdit({onEditProductModalClose, id}) {
               >
                 
                 <option
-                  value="Vinho Tinto"
+                  value="Ovo Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Vinho Tinto
+                  Ovo Branco
                 </option>
                 <option
-                  value="Vinho Branco"
+                  value="Ovo Vermelho"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Vinho Branco
+                  Ovo Vermelho
                 </option>
                 <option
-                  value="Vinho Rosé"
+                  value="Caixa Vazia"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Vinho Rosé
+                  Caixa Vazia
                 </option>
                 <option
-                  value="Espumante"
+                  value="Bandeja Vazia"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Espumante
+                  Bandeja Vazia
                 </option>
-                <option
-                  value="Licoroso"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                  Licoroso
-                </option>
+               
               
               </select>
             </div>
