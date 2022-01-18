@@ -111,34 +111,89 @@ function ProductAdd({onProductModalClose}) {
                   -- Selecione uma opção --
                 </option>
                 <option
-                  value="Ovo Branco"
+                  value="Super_Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Ovo Branco
+                  Super Branco
                 </option>
                 <option
-                  value="Ovo Vermelho"
+                  value="Jumbo_Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Ovo Vermelho
+                  Jumbo Branco
                 </option>
                 <option
-                  value="Caixa Vazia"
+                  value="Extra_Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Caixa Vazia
+                  Extra Branco
                 </option>
                 <option
-                  value="Bandeja Vazia"
+                  value="Grande_Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Bandeja Vazia
+                  Grande Branco
                 </option>
-                
+                <option
+                  value="Medio_Branco"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                 Médio Branco
+                </option>
+                <option
+                  value="Pequeno_Branco"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Pequeno Branco
+                </option>
+                <option
+                  value="Industrial_Branco"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Industrial Branco
+                </option>
+                <option
+                  value="Rosado"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Rosado
+                </option>
+                <option
+                  value="Caipira"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Caipira
+                </option>
+                <option
+                  value="Codorna"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Codorna
+                </option>
+                <option
+                  value="Azul"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Azul
+                </option>
+                <option
+                  value="Papelao_Diversos"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Papelão Diversos
+                </option>
               
               </select>
             </div>
