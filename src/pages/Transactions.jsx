@@ -63,7 +63,7 @@ function Transactions() {
     <div>
       <div className="mx-20 text-sm">
         <div className="flex justify-between items-center">
-          <h1 className="text-red-700 text-lg mt-20 ">Lista de Transações</h1>
+          <h1 className="text-red-700 text-lg mt-20 ">Lista de Transaçõesxxxx</h1>
           <div>
             <label htmlFor="month" className="pl-24 pr-12 font-medium">
               Mês:
