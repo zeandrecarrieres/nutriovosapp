@@ -150,11 +150,18 @@ function ProductAdd({ onProductModalClose }) {
                   Azul
                 </option>
                 <option
-                  value="Papelao_Diversos"
+                  value="Papelao"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Papelão Diversos
+                  Papelão
+                </option>
+                <option
+                  value="Diversos"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Diversos
                 </option>
               </select>
             </div>
