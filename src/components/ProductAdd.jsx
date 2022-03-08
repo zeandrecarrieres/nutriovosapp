@@ -1,11 +1,7 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
-
-
-function ProductAdd({onProductModalClose}) {
-  
-
+function ProductAdd({ onProductModalClose }) {
   const [code, setCode] = useState("");
   const [category, setCategory] = useState("");
   const [name, setName] = useState("");
@@ -39,10 +35,7 @@ function ProductAdd({onProductModalClose}) {
         setQtde("");
         setPurchase_price("");
         setReference_price("");
-        onProductModalClose()
-
-        
-      
+        onProductModalClose();
       })
       .catch(function (erreur) {
         alert("Preencha todos os campos!");
@@ -50,7 +43,6 @@ function ProductAdd({onProductModalClose}) {
       });
   };
 
-  
   return (
     <div>
       <div className="w-90 bg-white rounded shadow-lg mt-24 p-8 m-4 md:max-w-2xl md:mx-auto">
@@ -59,9 +51,7 @@ function ProductAdd({onProductModalClose}) {
           className="grid-cols-2 grid-template-columns: repeat(2, minmax(0, 1fr)); items-center justify-center"
           onSubmit={registerProduct}
         >
-          <div className="text-xl mb-8 text-gray-500">
-            Inclusão de Produtos
-          </div>
+          <div className="text-xl mb-8 text-gray-500">Inclusão de Produtos</div>
 
           <div className="flex justify-between ">
             {/* <div className="flex flex-col mb-4">
@@ -111,53 +101,18 @@ function ProductAdd({onProductModalClose}) {
                   -- Selecione uma opção --
                 </option>
                 <option
-                  value="Super_Branco"
+                  value="Branco"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Super Branco
+                  Branco
                 </option>
                 <option
-                  value="Jumbo_Branco"
+                  value="Vermelho"
                   // name="Física"
                   className="flex flex-col mb-4"
                 >
-                  Jumbo Branco
-                </option>
-                <option
-                  value="Extra_Branco"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                  Extra Branco
-                </option>
-                <option
-                  value="Grande_Branco"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                  Grande Branco
-                </option>
-                <option
-                  value="Medio_Branco"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                 Médio Branco
-                </option>
-                <option
-                  value="Pequeno_Branco"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                  Pequeno Branco
-                </option>
-                <option
-                  value="Industrial_Branco"
-                  // name="Física"
-                  className="flex flex-col mb-4"
-                >
-                  Industrial Branco
+                  Vermelho
                 </option>
                 <option
                   value="Rosado"
@@ -165,6 +120,13 @@ function ProductAdd({onProductModalClose}) {
                   className="flex flex-col mb-4"
                 >
                   Rosado
+                </option>
+                <option
+                  value="Descartes"
+                  // name="Física"
+                  className="flex flex-col mb-4"
+                >
+                  Descartes
                 </option>
                 <option
                   value="Caipira"
@@ -194,7 +156,6 @@ function ProductAdd({onProductModalClose}) {
                 >
                   Papelão Diversos
                 </option>
-              
               </select>
             </div>
           </div>
@@ -290,8 +251,6 @@ function ProductAdd({onProductModalClose}) {
 
         <div></div>
       </div>
-      
-
     </div>
   );
 }
