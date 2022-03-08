@@ -15,7 +15,7 @@ function SideBar() {
                 to="/"
                 className="text-base m-4 text-gray-500 hover:text-red-700 "
               >
-                Dashboard
+                Dashboarde
               </Link>
             </li>
             <li className="py-2  hover:bg-gray-200 rounded p-4 hover:text-red-700 ">
