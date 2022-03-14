@@ -45,7 +45,7 @@ function Clients() {
                 Nome/Razão Social
               </th>
               <th className="w-3/12  border bg-gray-100 font-medium text-sm ">
-                Nome/Razão Social
+                Nome Fantasia
               </th>
               <th className="w-3/12  border bg-gray-100 font-medium text-sm ">
                 Email
