@@ -5,7 +5,7 @@ import axios from "axios";
 function ClientAdd({onCLientModalClose}) {
   const [type, setType] = useState("");
   const [category, setCategory] = useState("");
-  // const [nick, setNick] = useState("");
+  const [nick, setNick] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [telephone, setTelephone] = useState("");
@@ -24,11 +24,11 @@ function ClientAdd({onCLientModalClose}) {
     e.preventDefault();
     axios({
       method: "post",
-      url: `${process.env.REACT_APP_URL_API}/clients`,
+      url: `http://localhost:3000/transactions/clients`,
       data: {
         type,
         category,
-        // nick,
+        nick,
         name,
         email,
         telephone,
@@ -50,6 +50,7 @@ function ClientAdd({onCLientModalClose}) {
         setName('')
         setEmail('')
         setTelephone('')
+        setNick('')
         setAddress('')
         setComplement('')
         setDistrict('')
@@ -160,7 +161,7 @@ function ClientAdd({onCLientModalClose}) {
 
           <div className="flex flex-col mb-4">
             <label
-              htmlFor="nick"
+              htmlFor="name"
               className=" font-bold text-sm text-gray-500"
             >
               {category === "Fisica" ? "NOME" : "Razão Social"}
@@ -172,6 +173,23 @@ function ClientAdd({onCLientModalClose}) {
               value={name}
               className="border py-2 px-3 text-grey-darkest    h-10 my-2 shadow-sm bg-opacity-30 px-2 border-solid border-gray-300"
               onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+
+          <div className="flex flex-col mb-4">
+            <label
+              htmlFor="nick"
+              className=" font-bold text-sm text-gray-500"
+            >
+              Nome Fantasia
+            </label>
+            <input
+              type="text"
+              id="nick"
+              name="nick"
+              value={nick}
+              className="border py-2 px-3 text-grey-darkest    h-10 my-2 shadow-sm bg-opacity-30 px-2 border-solid border-gray-300"
+              onChange={(e) => setNick(e.target.value)}
             />
           </div>
 
