@@ -24,7 +24,7 @@ function ClientAdd({onCLientModalClose}) {
     e.preventDefault();
     axios({
       method: "post",
-      url: `http://localhost:3000/transactions/clients`,
+      url: `${process.env.REACT_APP_URL_API}/clients`,
       data: {
         type,
         category,
